@@ -339,8 +339,55 @@ footer{
 	text-align: center;
 }
 
-
-
+/*css for phone*/
+@media (min-width:0px) and (max-width:600px){
+	
+	.header-area .navbar-light{
+		background-color: #fff !important;
+	}
+	.header-area .navbar-light .navbar-nav .nav-link{
+	color: var(--color-negro);
+	}
+	.header-area .no-mostrar{
+		display: inline;
+	}
+	.header-area .mostrar{
+		display: inline;
+	}
+	#hero h1{
+		font-size: 36px;
+	}
+	#hero h5{
+		margin-top: 40px;
+		margin-bottom: 25px;
+	}
+	#hero h2{
+	font-size: 16px;
+	margin-bottom: 30px;
+	}
+	#hero,
+	.overlay-hero{
+		height: inherit;
+	}
+	.subtitulo{
+		width: 100%;
+	}
+	.info-service{
+		margin-bottom: 40px;
+	}
+	#works{
+		margin-top: 40px;
+	}
+	.work-blanco{
+		margin-top: 40px;
+	}
+	.section{
+		padding: 16% 0;
+	}
+	.info-team{
+		margin-bottom: 30px;
+	}
+}
 
 
 

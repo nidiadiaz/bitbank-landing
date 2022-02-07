@@ -61,6 +61,11 @@ a{
     background-color: transparent;
 	cursor:pointer;
 }
+
+.navbar-light .navbar-toggler i{
+	color: #000;
+}
+
 .navbar-light .navbar-toggler-icon {
     background-color: transparent;
 }
